@@ -17,5 +17,5 @@ def multiplying(a,b):
 for _ in range(5):
     a = random.randint(1, 10)
     b = random.randint(1, 5)
-    total_points = calculating(a, b)
-    print(total_points)
+    total_points =+ calculating(a, b)
+print(total_points)

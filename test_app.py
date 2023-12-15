@@ -1,6 +1,8 @@
-from app import adding
-from app import calculating
-from app import multiplying
+from app import adding, multiplying, calculating
+
+import sys
+print(sys.path)
+
 
 def test_calculating():
     result = calculating(2, 2)
