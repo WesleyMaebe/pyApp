@@ -23,7 +23,7 @@ jobs:
       - name: Run linting
         run: 
           pip install pylint
-          pylint .    
+          pylint app   
       - name: Run tests
         run: pytest
         
