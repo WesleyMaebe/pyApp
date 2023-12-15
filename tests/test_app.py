@@ -1,4 +1,6 @@
-from app import adding, multiplying, calculating
+from app import adding
+from app import calculating
+from app import multiplying
 
 def test_calculating():
     result = calculating(2, 2)
